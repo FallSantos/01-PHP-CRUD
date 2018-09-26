@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*box-sizing: border-box;*/
+}
+
+
+header{
+    width: 100%;
+}
+
+header nav ul{
+    background: #b7b7b7;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li{
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    transition: all .4s ease-in;
+}
+header nav ul li:hover{
+    background: rgba(0,0,0,.1);
+    /*transform: scale(1.5);*/
+}
+
+header nav ul li a{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #303030;
+    text-decoration: none;
+}
+
+.content{
+    width: 90%;
+    margin: 10px auto;
+    background: rgba(0,0,0,0.1);
+    padding: 5px;
+}
+
+footer{
+    background: #b7b7b7;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.form{
+    background: #303030;
+    width: 90%;
+    height: 250px;
+    margin: 10px auto;
+    color: #fff;
+    padding: 5px;
+}
+
+.result{
+    background: rgba(106, 255, 84, 0.52);
+    width: 90%;
+    padding: 5px;
+    margin: 10px auto;
+    color: #000;
+    text-align: center;
+    display: none;
+}
+
+.form input{
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.form select{
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.tableList{
+    width: 100%;
+}
+
+.tableList thead th{
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+.tableList tr:nth-child(2n - 1){
+    background: #dddddd;
+}
+
+.tableList tr td:last-child ul{
+    width: 100%;
+    /*background: aqua;*/
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li{
+    flex: 1;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.tableList img{
+    width: 20px;
+    /*border: 1px solid black;*/
+    padding: 2px;
+}
+
+.tableList img:hover{
+    background: rgba(0,0,0,0.2);
+}
